@@ -21,7 +21,7 @@ const sorter = (name, sorting) => {
     let x = sorting(name);
     for (let i = 0; i < x.length; i++) {
       const a = x[i];
-      const index = (a);
+      const index = (`${i+1}. ${a}`);
       arrayName.push(index);
     }
   }
